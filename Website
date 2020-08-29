@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/77cb547dd1.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <style>
+    body {background-image:url("/storage/emulated/0/Pictures/Screenshots/desktop 2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    background-size: 100%;}
+    header{display:flex ;}
+    .sidenav {
+    				height: 100%;
+    				width: 0;
+    				position: fixed;
+    				font-size: 50px;
+    				z-index: 1;
+    				top:0;
+    				left: 0;
+    				color: white;
+    				background-color:#111;
+    				overflow-x:hidden;
+    				transition: 0.5s;
+    				padding-top: 60px;
+    				}
+    .sidenav a{
+    				padding: 8px 8px 8px 32px;
+    				text-decoration:none;
+    				font-size: 30px;
+    				color:#818181;
+    				transition: 0.8s;
+    				}
+    .sidenav a:hover {color:#f1f1f1;}
+    .sidenav .closebtn {
+    				position: absolute;
+    				top:0;
+    				right: 25px;
+    				font-size: 50px;
+    				margin-left:50px;
+    				}
+    		@media screen and(max-height:450px;)
+    		{ .sidenav {padding-top:15px;}
+    		  .sidenav a{font-size: 18px;}
+    		}
+    		.web{
+    						font-family: 'Russo One', sans-serif;
+    		       text-shadow: 3px 1px black;
+    		       position: relative;
+    		       left:40%;
+    		       font-size:50px;
+    		       color: white;}
+    		       .page{position:absolute;
+    		            left:52%;}
+    		        
+    		            
+    		      main {width: 100%;
+    		            background-color:white;
+    		            position: relative;
+    		            top: 60px;
+    		            font-family: 'Inconsolata', monospace;
+    		            border-radius: 13px;}
+    </style>
+</head>
+<body>
+    <header>
+    <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">login <i class="fas fa-user-circle"></i></a>
+    <a href="#">contact <i class="fas fa-envelope"></i></a>
+    <a href="#">home <i class="fas fa-house-user"></i></a>
+    </div>
+    <span style="font-size:50px;cursor: pointer;color:#4d4d4d;Border-radius:10px;" onclick="openNav()"><i class="fas fa-bars" style="width:50px;height: 40px;"></i></span>
+    <script>
+    function openNav() {
+    	document.getElementById("mySidenav").style.width ="250px";
+    				}
+    function closeNav() {
+    		document.getElementById("mySidenav").style.width ="0";
+    				}
+    
+    </script>
+    </header>
+    <h1><span class="web" >web</span><div class="page">|site</div></h1>
+    <main>
+    <h3 style="text-align:center; font-family: 'Inconsolata', monospace;padding-top:12px;" >-what's a website?</h3>
+    
+    <p style="margin-left:40px">A website (also written as web site) is a collection of web pages and related content that is identified by a common domain name and published on at least one web server. Notable examples are wikipedia.org, google.com, and amazon.com.
+
+All publicly accessible websites collectively constitute the World Wide Web. There are also private websites that can only be accessed on a private network, such as a company's internal website for its employees.
+
+Websites are typically dedicated to a particular topic or purpose, such as news, education, commerce, entertainment, or social networking. Hyperlinking between web pages guides the navigation of the site, which often starts with a home page.
+
+Users can access websites on a range of devices, including desktops, laptops, tablets, and smartphones. The software application used on these devices is called a web browser.
+</p>
+<h3  Style="text-align:center;font-family: 'Inconsolata', monospace;">-how can I create one?</h3>
+<p style="margin-left:40px">
+Several steps must be followed to create a new website and ensure its success. According to ThoughtCo, these steps are summarized as follows: [4] <b>Website hosting </b>: In this step, a place is rented to contain the website files. 
+<br/>
+<b>Registering a domain name (Domain name) for the website</b>: where a domain name is purchased for the website, which is the address that is entered in a web browser to access the website.
+<br/>
+<b>Website planning</b>: These steps include determining the type of website, in addition to its appearance and content.
+<br/>
+<b>Website design</b>: This step is the most complicated among the others; For those who want to design a site must be a scientist in a few things, such as design basics, knowledge of the languages ​​used in the design, and so on. <br/>
+<b>Publish the website</b>: In this step, the website files are uploaded to the website host. <br/>
+<b>Promote and market the site</b>: to increase the number of its visitors.
+<br/>
+ <b>Regular maintenance of the website</b>: The website must be maintained and updated if necessary.
+</p>
+<h3 style="text-align:center;font-family: 'Inconsolata', monospace;">what's web hosting?</h3>
+<img src="/storage/emulated/0/Pictures/Screenshots/hosting.png" width="300px" height="100px" style="margin-left:30px;">
+<p style="margin-left:40px">
+Website hosting is the process by which a dedicated place on the web is rented to contain the files and resources needed for the website, and these files are contained in a web server so that any visitor can access them. Website hosting prices vary according to the host and the features and services provided by it, and several types of web hosting services are available; To suit the size of the website, and among these services are the following: <br/> <b>Shared web hosting service</b>: In this type of hosting service, the resources are shared with other subscribers on a server with high specifications, the website performance may be affected in the event of pressure on the server caused by other sites. The cost of this type of hosting services is usually very low, and this type is suitable for small websites that are not expected to receive a large number of visitors at the same time.<br/>
+ <b>Reseller web hosting service </b>: This hosting service is very similar to shared hosting service, except that it is equipped with a number of tools that allow the subscriber to resell the space that he rents, and if this is not the subscriber's goal, then the resort is not preferred To this type of hosting service. <br/>
+<b>Cloud based web hosting service </b>: This service relies on cloud technology to run websites, as hundreds of distributed computers work together as one huge computer server with super specifications. This type of hosting service differs from the shared hosting service, in that it is able to withstand major pressures on websites without the need to close them, and this service depends on the principle of paying for the volume of use only.<br/> <b>Virtual Private Server ( VPS)</b>: The virtual private server is like an independent computer device, but it reserves its own resources by an independent server, as this independent server contains a number of virtual servers, each of which has its own resources, and in this way One website is not affected by another website even if they are on the same device. The prices of this type of hosting services range from 50-200 dollars depending on the capacity of the central processing unit (CPU), in addition to the capacity of the random access memory (RAM) selected. <br/>
+<b>Dedicated Server</b>: A computer is rented from the hosting company. So that the subscriber enjoys all of his resources without sharing them with any other site. Prices for dedicated servers start at $ 100, and the cost of hiring a system administrator may be added to this if the site owner wants to hire him to handle the server's technical tasks. It is preferable to resort to this type of hosting service when receiving a large number of visitors.
+<br/>
+<b> Owned hosting service (colocation web hosting)</b>: In this type of hosting services, an entire space is rented in a hosting company, so that it provides cooling, security, electric power , and Internet connection , provided that the subscriber installs the servers and installs the necessary software on them, so the subscriber He is in charge of his devices. It is not preferable to resort to this kind of hosting services if the website is still small, and largely inactive. It is worth noting that some companies provide themselves with the hosting service necessary to operate their servers, and this includes space, cooling, electric power, and internet connection, in addition to devices, technicians, and others. 
+<br/>
+<b>Domain name registration</b><br/>
+ The domain name that the website owner wants to use for visitors to enter the site is purchased, and the domain name purchase prices range between $ 8-35 annually, and it is purchased from one of the sites that specialize in selling it, and some hosting companies may also provide domain names if The subscriber wanted to purchase it, and this facilitates the process of managing the site so that the hosting service in addition to the domain name are on the same account.<br/>
+  <b>Website planning</b><br/>
+   The website must be planned before starting its design, so its type is determined, which in turn affects the design process later on, and how the visitor's movement within the site is determined by creating a site map (in English: Site map), which clarifies the structure of the site and its pages, in addition to the links that it contains. Also, during the website planning stage, the website content is determined from text, images, video clips, and more.<br/>
+    <b> Website design</b> <br/>The website is designed using one of the well-known web design methods, it can be programmed using site building languages ​​such as HTML (English: HTML), Stacked Style Pages (English: CSS), in addition to JavaScript (English: Javascript), and as a method. Other, you can resort to a website design software, or content management software (CMS) that facilitate the design process. <br/>
+    <b> Publish the website</b><br/> Website files are uploaded to the hosting service through one of the tools that the service itself may provide for this, or by file transfer protocol (FTP), which is supported by most hosting services.<br/>
+   <b>Website marketing</b></br> The website should be marketed in the event that the owner wants to advertise it and increase the number of its visitors, and one of the beneficial ways in that is to resort to improving search engines (SEO) so that people looking for products or services offered by the website can easily find it through search engines. Website designers may have to make some adjustments to support different search engines, and other means of marketing websites include e- mail or social media , or it can be done by simply announcing them by known means.<br/> 
+   <b> Website maintenance</b><br/> The website must be checked before publication, and after that it is checked on an ongoing basis. To ensure that it remains working as required, it can also be updated to keep pace with the latest developments, such as: support for modern devices, in addition to various web browsers, and it is preferable to add more content to the site constantly in proportion to its audience. 
+</p>
+<h3 style="text-align: center;font-family: 'Inconsolata', monospace;">-how can I make money from a website?</h3>
+<img src="/storage/emulated/0/Pictures/Screenshots/money.png" width="300px" height="100px" style="padding-left: 25px;">
+<p style="margin-left:40px">Making money from your website isn’t a myth. It’s doable by anyone.
+
+In fact – turning a part-time, hobby blog or website into an income-generating asset is fairly common with a bit of luck and some hard work.
+
+At the very least, you should be able to make enough to cover your basic expenses for a domain and hosting. You might even be able to replace your income (and then earn some more).
+
+Keep in mind that the strategies listed below range from easy and passive, to the ones which require a TON of on-going work (so make sure you pick something that suits your site and lifestyle preferences).
+
+There are 33 total tips in this guide, but let’s start with the ten most popular (and predictable) site monetization tips.
+
+If you wish to create a website that you plan to monetize, you can use this step-by-step guides to create your own self-hosted website at the cheapest cost.
+if u wanna to know more about that u can check this link :
+<a href="https://websitesetup.org/33-ways-to-monetize-website/" style="color:black"><strong> click here</strong> </a>
+</p>
+<h3 style="text-align: center;font-family: 'Inconsolata', monospace;padding-left:13px;">-from where can I learn coding ?</h3>
+<p style="margin-left:40px;">here some good sites to learn web programming:<br/>
+<ol>
+<li><b>bitDegree:</b></li>
+<img src="/storage/emulated/0/Pictures/Screenshots/bit.png" width="300px" height="100px">
+BitDegree offers a ton of free courses that range from programming to game development.
+<br/>
+They offer standard online courses and gamified courses. Gamified courses help to bring achievements and interaction into the learning process. All you have to do is choose your language and start learning.
+<br/>
+There are a variety of programming languages covered, but the most popular ones are highlighted below:
+<br/>
+<strong>
+.HTML<br/>
+.CSS<br/>
+.PHP<br/>
+.Javascript<br/>
+.SQL<br/>
+.JQuery<br/>
+</strong>
+BitDegree also does something unique by incorporating blockchain into the education process. There are transparent rewards and an achievement system that helps businesses recruit tech talent, and measure course success.
+<br/><a href=" https://www.bitdegree.org/learn/" style="color:black"><b>go to BitDegree</b></a>
+<strong>
+<li>Code Academy</li>
+</strong>
+<img src="/storage/emulated/0/Pictures/Screenshots/code.png" width="300px" height="100px">
+Code Academy is one of the most popular sites where people learn to code for free. More than 24 million people have learned to code using this platform.
+
+They offer courses ranging from introductory programming to more advanced languages. The interactive learning approach lets you immediately apply what you’ve learned. There are over 300 million hours of free coding content available to take you from complete beginner to working programmer.
+
+Some of the languages you’ll be able to learn at Code Academy include:
+<br/>
+.HTML<br/>
+.JavaScript<br/>
+.CSS<br/>
+.jQuery<br/>
+.PHP<br/>
+.Python<br/>
+.Ruby<br/>
+
+There are several other courses available as well, but the languages above are the core focus.
+<br/><a href="https://www.codecademy.com/"
+" style="color:black"><b>go to code academy</b></a>
+<li><strong>FreeCodeCamp</strong></li>
+</ol>
+Free Code Camp is all about creating real-life relationships and building a community around programming education. It provides the chance to learn coding by participating in various challenges. You’ll get access to programming tutorials and courses to help you complete each challenge.
+<br/>
+Once you have some skills you’ll be able to apply this to the real-world by building tradable projects and coding for non-profits. Some of the languages and skills covered include:
+<br/>
+<b>
+.HTML5<br/>
+CSS3<br/>
+JavascriptNode<br/>
+.jsReact<br/>
+.jsD3<br/>
+.jsDatabases<br/>
+.Git and Github<br/>
+</b>
+Best of all, you won’t be coding alone. There’s a community forum with others who are learning alongside you. And you have the option to meet other coders who live in your city to chat or exchange knowledge.
+<a href="  https://www.freecodecamp.org/"
+" style="color:black"><strong>go to freecodecamp</strong></a><br/>
+-if u want know more you can watch the video below:
+</p>
+<iframe src="https://youtube.com/embed/XV1cOGaZUq0" width="300px" height="200px" style="border-color: black;Border-size:3px;Border-radius: 6px;"></iframe>
+    </main>
+</body>
+</html>
